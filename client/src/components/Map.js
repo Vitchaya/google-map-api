@@ -245,7 +245,7 @@ class Map extends Component{
 								marginBottom: '100px'
 							}}
 							onPlaceSelected={ this.onPlaceSelected }
-              types='establishment'
+              types={['establishment']}
               componentRestrictions={{country: "th"}}
 						/>
 					</GoogleMap>
